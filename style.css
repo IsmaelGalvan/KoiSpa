@@ -302,8 +302,6 @@ footer i{
   display: show;
 }
 
-
-
 @media (max-width: 500px) {
 
   .grupo_card {
@@ -350,10 +348,6 @@ footer i{
       height: auto;
   }
 
-  .serviciobtn{
-    display: show;
-  }
-
   .carousel{
     margin-top: 50px;
   }
@@ -379,4 +373,9 @@ footer i{
   }
 }
 
+@media (min-width: 501px) {
+.serviciobtn{
+  display: none;
+}
+}
 
